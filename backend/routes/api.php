@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BootcampController;
+use App\Http\Controllers\coursesController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -23,3 +24,4 @@ use App\Http\Controllers\BootcampController;
 //Metodo apiResource:: Crear rutas de cambio de estado
 //    para una entidad
 Route::apiResource('bootcamps', BootcampController::class);
+Route::apiResource('courses', coursesController::class);

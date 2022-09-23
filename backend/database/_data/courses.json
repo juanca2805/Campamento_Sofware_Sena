@@ -1,0 +1,8 @@
+{
+    "title" : "PHP for dunmies",
+    "description" : "PHP from novice",
+    "weeks": 7,
+    "enrall_cost":1000,
+    "minimun_skill" : "beginner",
+    "bootcamp_id": 1
+}
