@@ -16,6 +16,7 @@ class Bootcamp extends Model
         "phone",
         "average_raiting",
         "average_cost",
-        "user_id"
+        "user_id",
+        "antonio_"
     ];
 }
